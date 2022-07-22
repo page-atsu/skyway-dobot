@@ -23,7 +23,8 @@ window.onload = ()=> {
     const query = getQueryParams();
     // api keyはGet Parameterから取る
     // これは演習で簡単に設定するための雑な処理で推奨ではない
-    const key = query["key"];
+    // const key = query["key"];
+    const key = '39f05a53-160c-4ffd-a468-11cdc3be64ef'
     //peer idもGet Parameterから取る
     const peer_id = query["peer_id"]
     const peer = new Peer(peer_id, {
